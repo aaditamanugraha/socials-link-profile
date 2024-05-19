@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-screen">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,22 +12,50 @@
     <title>Frontend Mentor | Social links profile</title>
     <link rel="stylesheet" href="./src/css/output.css" />
   </head>
-  <body class="font-inter">
-    <main>
-      <div id="profile">
-        <img src="./assets/images/avatar-jessica.jpeg" alt="avatar-jessica" />
-        <h1>Jessica Randall</h1>
-        <p>London, United Kingdom</p>
+  <body
+    class="font-inter bg-off-black text-white h-screen grid place-items-center"
+  >
+    <main
+      class="bg-dark-grey h-max w-max grid place-items-center p-10 rounded-2xl"
+    >
+      <div id="profile" class="grid place-items-center mb-6">
+        <img
+          src="./assets/images/avatar-jessica.jpeg"
+          alt="avatar-jessica"
+          class="rounded-full w-1/2 mb-6"
+        />
+        <h1 class="text-2xl mb-2">Jessica Randall</h1>
+        <p class="font-semibold text-green text-sm">London, United Kingdom</p>
       </div>
 
-      <p>"Front-end developer and avid reader."</p>
+      <p class="mb-6 text-sm">"Front-end developer and avid reader."</p>
 
-      <div id="links">
-        <button>GitHub</button>
-        <button>Frontend Mentor</button>
-        <button>LinkedIn</button>
-        <button>Twitter</button>
-        <button>Instagram</button>
+      <div id="links" class="grid place-items-center text-sm w-full">
+        <button
+          class="bg-grey hover:bg-green hover:text-dark-grey mb-2 py-3 w-full font-semibold rounded-lg"
+        >
+          GitHub
+        </button>
+        <button
+          class="bg-grey hover:bg-green hover:text-dark-grey mb-2 py-3 w-full font-semibold rounded-lg"
+        >
+          Frontend Mentor
+        </button>
+        <button
+          class="bg-grey hover:bg-green hover:text-dark-grey mb-2 py-3 w-full font-semibold rounded-lg"
+        >
+          LinkedIn
+        </button>
+        <button
+          class="bg-grey hover:bg-green hover:text-dark-grey mb-2 py-3 w-full font-semibold rounded-lg"
+        >
+          Twitter
+        </button>
+        <button
+          class="bg-grey hover:bg-green hover:text-dark-grey py-3 w-full font-semibold rounded-lg"
+        >
+          Instagram
+        </button>
       </div>
     </main>
 
